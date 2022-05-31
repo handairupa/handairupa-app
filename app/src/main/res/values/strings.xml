@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">handairupaApps</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="doesn_t_have_gambart_account_tap_me">Doesn’t have GAMBART account?</string>
+    <string name="tap_me">Tap me!</string>
+    <string name="create_new_account">CREATE NEW ACCOUNT</string>
+    <string name="email_error">Email invalid</string>
+    <string name="please_type_your_e_mail_here_we_ll_send_you_a_link_to_reset_your_password">Please type your e-mail here, we’ll send you a link to reset your password.</string>
+    <string name="back_to_log_in">Back to log in</string>
+</resources>
