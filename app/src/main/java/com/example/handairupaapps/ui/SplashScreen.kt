@@ -1,4 +1,4 @@
-package com.example.handairupaapps
+package com.example.handairupaapps.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,7 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.example.handairupaapps.akun.LoginActivity
+import com.example.handairupaapps.R
+import com.example.handairupaapps.ui.login.LoginActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {

@@ -10,6 +10,7 @@
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/fragment_journal.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
@@ -19,10 +20,9 @@
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/font/.xml" value="0.234375" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/font/inter_bold.xml" value="0.234375" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/font/inter_extrabold.xml" value="0.2158203125" />
-        <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/layout/activity_diary.xml" value="0.25" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/layout/activity_reset.xml" value="0.22" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
       </map>
