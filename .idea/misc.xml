@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.112" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/font/.xml" value="0.234375" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/font/inter_bold.xml" value="0.234375" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_camera.xml" value="0.20416666666666666" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/fragment_journal.xml" value="0.1" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/drawable/bg_button.xml" value="0.1075" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/drawable/bg_button_disable.xml" value="0.1075" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/drawable/bg_button_reset.xml" value="0.1005" />

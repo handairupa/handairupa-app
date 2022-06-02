@@ -12,4 +12,6 @@
     <string name="tanggal">Tanggal :</string>
     <string name="camera">Camera</string>
     <string name="flip">Flip Camera</string>
+    <string name="title_journal">Skin Journal</string>
+    <string name="title_settings">Settings</string>
 </resources>
