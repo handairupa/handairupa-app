@@ -22,7 +22,7 @@
         android:layout_width="231dp"
         android:layout_height="75dp"
         android:fontFamily="@font/inter_bold"
-    android:textAlignment="center"
+        android:textAlignment="center"
         android:text="@string/create_new_account"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
