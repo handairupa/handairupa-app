@@ -20,18 +20,22 @@
             android:exported="false" />
         <activity
             android:name=".akun.ResetActivity"
+            android:theme="@style/SplashTheme.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".akun.RegisterActivity"
+            android:theme="@style/SplashTheme.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".akun.LoginActivity"
+            android:theme="@style/SplashTheme.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".SplashScreen"
+            android:theme="@style/SplashTheme.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

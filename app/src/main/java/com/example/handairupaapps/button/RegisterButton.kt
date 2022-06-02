@@ -14,7 +14,6 @@ class RegisterButton : AppCompatButton {
     private lateinit var disabledBackground: Drawable
     private var txtColor: Int = 0
 
-
     constructor(context: Context) : super(context){
         init()
 
