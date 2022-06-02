@@ -10,4 +10,6 @@
     <string name="back_to_log_in">Back to log in</string>
     <string name="tanggal_lahir">Tanggal lahir</string>
     <string name="tanggal">Tanggal :</string>
+    <string name="camera">Camera</string>
+    <string name="flip">Flip Camera</string>
 </resources>
