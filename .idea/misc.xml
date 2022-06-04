@@ -8,6 +8,7 @@
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.112" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/drawable/ic_capture.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/drawable/ic_menu_camera.xml" value="0.167" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/drawable/ic_menu_logout.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/font/.xml" value="0.234375" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/font/inter_bold.xml" value="0.234375" />
@@ -32,7 +33,7 @@
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/home_drawer_header.xml" value="0.391304347826087" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/nav_header_home.xml" value="0.12907608695652173" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
-        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/activity_home_drawer.xml" value="0.109375" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/activity_home_drawer.xml" value="0.33" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/home.xml" value="0.20416666666666666" />
