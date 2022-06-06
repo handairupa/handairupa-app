@@ -25,9 +25,3 @@
 
 ### UI: 
 > **TBA**
-
-<-- | Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
--->
