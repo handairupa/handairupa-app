@@ -1,8 +1,6 @@
 package com.example.handairupaapps.ui.camera
 
-import android.Manifest
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.view.WindowInsets
@@ -14,15 +12,11 @@ import androidx.camera.core.ImageCapture
 import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.navigation.findNavController
-import androidx.navigation.ui.setupWithNavController
 import com.example.handairupaapps.R
 import com.example.handairupaapps.databinding.ActivityCameraBinding
 import com.example.handairupaapps.ui.result.ResultActivity
 import com.example.handairupaapps.util.createFile
-import com.google.android.material.navigation.NavigationView
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
@@ -36,11 +30,18 @@ class CameraActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityCameraBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         cameraExecutor = Executors.newSingleThreadExecutor()
+
         binding.captureImage.setOnClickListener { takePhoto() }
+        binding.switchCamera.setOnClickListener {
+            cameraSelector = if (cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA) CameraSelector.DEFAULT_FRONT_CAMERA
+            else CameraSelector.DEFAULT_BACK_CAMERA
+            startCamera()
+        }
     }
 
     public override fun onResume() {
@@ -56,6 +57,7 @@ class CameraActivity : AppCompatActivity(){
 
     private fun takePhoto() {
         val imageCapture = imageCapture ?: return
+
         val photoFile = createFile(application)
 
         val outputOptions = ImageCapture.OutputFileOptions.Builder(photoFile).build()
@@ -66,7 +68,7 @@ class CameraActivity : AppCompatActivity(){
                 override fun onError(exc: ImageCaptureException) {
                     Toast.makeText(
                         this@CameraActivity,
-                        "Gagal mengambil gambar.",
+                        getString(R.string.failed_capture_image),
                         Toast.LENGTH_SHORT
                     ).show()
                 }
@@ -110,7 +112,7 @@ class CameraActivity : AppCompatActivity(){
             } catch (exc: Exception) {
                 Toast.makeText(
                     this@CameraActivity,
-                    "Gagal memunculkan kamera.",
+                    getString(R.string.failed_camera),
                     Toast.LENGTH_SHORT
                 ).show()
             }
@@ -129,21 +131,6 @@ class CameraActivity : AppCompatActivity(){
         }
         supportActionBar?.hide()
     }
-
-/*    private lateinit var binding: ActivityCameraBinding
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityCameraBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-
-        supportActionBar?.hide()
-
-        val camNavView: NavigationView = binding.camNavView
-        val navController = findNavController(R.id.nav_host_fragment_content_camera)
-        camNavView.setupWithNavController(navController)
-    }*/
 
 }
 
