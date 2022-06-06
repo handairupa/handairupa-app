@@ -49,6 +49,7 @@
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/home.xml" value="0.20416666666666666" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/drawable/baseline_face_retouching_natural_24.xml" value="0.1" />
+        <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/drawable/ic_switch_camera.xml" value="0.175" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/activity_camera.xml" value="0.2" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/activity_home.xml" value="0.10833333333333334" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/activity_result.xml" value="0.10885416666666667" />
@@ -59,6 +60,7 @@
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/fragment_camera.xml" value="0.10885416666666667" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/fragment_journal.xml" value="0.10885416666666667" />
+        <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/item_row_product.xml" value="0.203125" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/layout/nav_header_home.xml" value="0.10885416666666667" />
         <entry key="..\:/GitHub/Kotlin/handairupa-test/app/src/main/res/menu/activity_home_drawer.xml" value="0.1046875" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApps/app/src/main/res/drawable/bg_button.xml" value="0.1075" />

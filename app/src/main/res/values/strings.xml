@@ -20,5 +20,8 @@
     <string name="capture_prompt">Find out your facial skin\'s current condition.</string>
     <string name="capture_now">Capture now!</string>
     <string name="hello_text">"Hello."</string>
+    <string name="denied_permission">Handairupa belum mendapatkan izin akses kamera.</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
 
 </resources>
