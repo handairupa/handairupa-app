@@ -12,16 +12,22 @@
 
 ### Tools used
 #### Design: 
-- <a href ="https://www.figma.com/proto/2tpDNyCJ6sj59apdSkrjAN/handairupa-prototype?node-id=11%3A122&scaling=scale-down&page-id=1%3A2&starting-point-node-id=11%3A122">Figma</a>
-- <a href ="">draw.io</a>
+- [Figma]("https://www.figma.com/proto/2tpDNyCJ6sj59apdSkrjAN/handairupa-prototype?node-id=11%3A122&scaling=scale-down&page-id=1%3A2&starting-point-node-id=11%3A122")
+- [draw.io]("")
 
 #### Code and Auth: 
-- <a href ="https://developer.android.com/?hl=id">Android Studio</a>
-- <a href ="https://kotlinlang.org">Kotlin</a>
-- <a href ="https://firebase.google.com">Firebase</a>
+- [Android Studio]("https://developer.android.com/?hl=id")
+- [Kotlin]("https://kotlinlang.org")
+- [Firebase]("https://firebase.google.com")
 
 ### Libraries: 
 > **TBA**
 
 ### UI: 
 > **TBA**
+
+<-- | Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+-->
