@@ -13,7 +13,6 @@ import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import com.example.handairupaapps.R
 import com.example.handairupaapps.databinding.ActivityCameraBinding
 import com.example.handairupaapps.ui.result.ResultActivity
 import com.example.handairupaapps.util.createFile
@@ -57,10 +56,9 @@ class CameraActivity : AppCompatActivity(){
 
     private fun takePhoto() {
         val imageCapture = imageCapture ?: return
-
         val photoFile = createFile(application)
-
         val outputOptions = ImageCapture.OutputFileOptions.Builder(photoFile).build()
+
         imageCapture.takePicture(
             outputOptions,
             ContextCompat.getMainExecutor(this),
@@ -68,7 +66,7 @@ class CameraActivity : AppCompatActivity(){
                 override fun onError(exc: ImageCaptureException) {
                     Toast.makeText(
                         this@CameraActivity,
-                        getString(R.string.failed_capture_image),
+                        "Gagal mengambil gambar.",
                         Toast.LENGTH_SHORT
                     ).show()
                 }
@@ -112,7 +110,7 @@ class CameraActivity : AppCompatActivity(){
             } catch (exc: Exception) {
                 Toast.makeText(
                     this@CameraActivity,
-                    getString(R.string.failed_camera),
+                    "Gagal memunculkan kamera.",
                     Toast.LENGTH_SHORT
                 ).show()
             }
@@ -131,6 +129,5 @@ class CameraActivity : AppCompatActivity(){
         }
         supportActionBar?.hide()
     }
-
 }
 

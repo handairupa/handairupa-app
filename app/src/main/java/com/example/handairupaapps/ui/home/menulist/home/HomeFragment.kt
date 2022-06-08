@@ -26,13 +26,14 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.apply {
-            cameraXButton.setOnClickListener {
-                Intent(requireContext(), CameraActivity::class.java).also {
-                    startActivity(it)
+            binding.apply {
+                cameraXButton.setOnClickListener {
+                    Intent(requireContext(), CameraActivity::class.java).also {
+                        startActivity(it)
+                    }
                 }
             }
-        }
+
     }
     override fun onDestroyView() {
         super.onDestroyView()

@@ -24,6 +24,10 @@
     <string name="product_name">Product Name</string>
     <string name="product_description">Product Description</string>
     <string name="failed_camera">Showing camera failed</string>
-    <string name="failed_capture_image">Captur image failed.</string>
+    <string name="failed_capture_image">Capture image failed.</string>
+    <string name="img_result">Result image</string>
+    <string name="skin_condition">Skin Condition Name</string>
+    <string name="skin_condition_desc">Description of Skin Condition</string>
+    <string name="switch_camera">Switch Camera</string>
 
 </resources>

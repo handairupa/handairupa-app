@@ -27,4 +27,12 @@
 
     <style name="Theme.HandairupaApps.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Text.Toolbar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/inter_extrabold</item>
+    </style>
 </resources>
