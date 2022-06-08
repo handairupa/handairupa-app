@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.window:window:1.0.0-alpha09@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5eea78cdbdfb6db4d036b09b882a16fb/transformed/window-1.0.0-alpha09/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5eea78cdbdfb6db4d036b09b882a16fb/transformed/window-1.0.0-alpha09/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5eea78cdbdfb6db4d036b09b882a16fb/transformed/window-1.0.0-alpha09/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9fe3abea5407e9cfaf5179c6399ceeb0/transformed/window-1.0.0-alpha09/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9fe3abea5407e9cfaf5179c6399ceeb0/transformed/window-1.0.0-alpha09/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9fe3abea5407e9cfaf5179c6399ceeb0/transformed/window-1.0.0-alpha09/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
