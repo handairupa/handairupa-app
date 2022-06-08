@@ -48,14 +48,16 @@
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin Projects/handairupa-app/app/src/main/res/menu/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/drawable/baseline_face_retouching_natural_24.xml" value="0.1415" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/drawable/custom_toolbar.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/activity_camera.xml" value="0.1" />
-        <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/activity_result.xml" value="0.19519927536231885" />
+        <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/activity_main.xml" value="0.11911231884057971" />
+        <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/activity_result.xml" value="0.2" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/app_bar_home.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/content_home.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/fragment_journal.xml" value="0.1" />
-        <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/fragment_permissions.xml" value="0.25" />
+        <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/fragment_permissions.xml" value="0.1037037037037037" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/item_row_product.xml" value="0.19519927536231885" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/item_skin_condition.xml" value="0.33" />
         <entry key="..\:/GitHub/Kotlin/handairupa-copy/app/src/main/res/layout/nav_header_home.xml" value="0.146875" />

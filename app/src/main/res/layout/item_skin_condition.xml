@@ -50,13 +50,6 @@
                     android:textColor="?android:attr/textColorSecondary" />
             </LinearLayout>
 
-            <include
-                layout="@layout/item_row_product"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp" />
-
-
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>

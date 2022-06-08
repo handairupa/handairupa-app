@@ -6,17 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".ui.result.ResultActivity">
 
-    <ImageView
-        android:id="@+id/previewImageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+
+    <include
+        android:id="@+id/skin_card"
+        layout="@layout/item_skin_condition"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_product_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257"
-        app:srcCompat="@drawable/ic_menu_gallery"
-        tools:ignore="ContentDescription" />
+        app:layout_constraintTop_toBottomOf="@+id/skin_card"
+        tools:listitem="@layout/item_row_product" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
