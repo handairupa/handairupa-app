@@ -1,9 +1,7 @@
 package com.example.handairupaapps.ui.home
 
 import android.Manifest
-import android.annotation.SuppressLint
 import android.content.pm.PackageManager
-import android.graphics.Color
 import android.os.Bundle
 import android.widget.Toast
 import com.google.android.material.navigation.NavigationView
@@ -24,14 +22,17 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityHomeBinding
 
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<String>,
+        grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == REQUEST_CODE_PERMISSIONS) {
             if (!allPermissionsGranted()) {
                 Toast.makeText(
                     this,
-                    "Tidak mendapatkan permission.",
+                    getString(R.string.denied_permission),
                     Toast.LENGTH_SHORT
                 ).show()
                 finish()
@@ -43,7 +44,6 @@ class HomeActivity : AppCompatActivity() {
         ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
     }
 
-    @SuppressLint("ResourceAsColor")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -59,8 +59,6 @@ class HomeActivity : AppCompatActivity() {
         }
 
         setSupportActionBar(binding.appBarHome.toolbar)
-        binding.appBarHome.toolbar.setCollapseIcon(R.drawable.ic_menu)
-        binding.appBarHome.toolbar.setTitleTextColor(R.color.black)
 
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
@@ -84,5 +82,4 @@ class HomeActivity : AppCompatActivity() {
         private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
         private const val REQUEST_CODE_PERMISSIONS = 10
     }
-
 }

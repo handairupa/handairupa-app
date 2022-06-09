@@ -19,18 +19,23 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        launcherIntentGallery.launch(intent)
+        launcherIntentCameraX.launch(intent)
     }
 
-    private val launcherIntentGallery = registerForActivityResult(
+    private val launcherIntentCameraX = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        if (result.resultCode == RESULT_OK) {
-            val selectedImg: Uri = result.data?.data as Uri
+    ) {
+        if (it.resultCode == CAMERA_X_RESULT) {
+            val myFile = it.data?.getSerializableExtra("picture") as File
+            val isBackCamera = it.data?.getBooleanExtra("isBackCamera", true) as Boolean
 
-            val myFile = uriToFile(selectedImg, this@ResultActivity)
             getFile = myFile
-            binding.previewImageView.setImageURI(selectedImg)
+            val result = rotateBitmap(
+                BitmapFactory.decodeFile(getFile?.path),
+                isBackCamera
+            )
+
+            binding.previewImageView.setImageBitmap(result)
         }
     }
 

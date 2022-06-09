@@ -19,8 +19,8 @@ import com.example.handairupaapps.util.createFile
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-class CameraActivity : AppCompatActivity(){
-
+@Suppress("DEPRECATION")
+class CameraActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCameraBinding
     private lateinit var cameraExecutor: ExecutorService
 
@@ -56,9 +56,10 @@ class CameraActivity : AppCompatActivity(){
 
     private fun takePhoto() {
         val imageCapture = imageCapture ?: return
-        val photoFile = createFile(application)
-        val outputOptions = ImageCapture.OutputFileOptions.Builder(photoFile).build()
 
+        val photoFile = createFile(application)
+
+        val outputOptions = ImageCapture.OutputFileOptions.Builder(photoFile).build()
         imageCapture.takePicture(
             outputOptions,
             ContextCompat.getMainExecutor(this),
@@ -130,4 +131,3 @@ class CameraActivity : AppCompatActivity(){
         supportActionBar?.hide()
     }
 }
-
